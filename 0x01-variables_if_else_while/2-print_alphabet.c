@@ -12,5 +12,6 @@ while (alp <= 'z')
 putchar(alp);
 alp++;
 }
+printf("\n");
 return (0);
 }
