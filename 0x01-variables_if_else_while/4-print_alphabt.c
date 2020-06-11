@@ -7,11 +7,12 @@
 int main(void)
 {
 int noqe;
-noqe = 'a';
-while (noqe <= 'z', noqe != 'q', noqe != 'e')
+noqe = 'a' - 1;
+while (noqe <= 'z')
 {
-putchar(noqe);
 noqe++;
+if (noqe != 'q' && noqe != 'e')
+putchar(noqe);
 }
 putchar('\n');
 return (0);
