@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char noqe;
+int noqe;
 noqe = 'a';
 while (noqe <= 'z', noqe != 'q', noqe != 'e')
 {
