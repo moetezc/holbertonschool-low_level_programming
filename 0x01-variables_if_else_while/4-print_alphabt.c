@@ -8,7 +8,7 @@ int main(void)
 {
 int noqe;
 noqe = 'a' - 1;
-while (noqe <= 'z')
+while (noqe <= 'y')
 {
 noqe++;
 if (noqe != 'q' && noqe != 'e')
