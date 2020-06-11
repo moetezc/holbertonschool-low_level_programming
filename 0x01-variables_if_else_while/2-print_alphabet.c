@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-int alp = 'a';
+char alp ;
+alp ='a';
 while (alp <= 'z')
 {
 putchar(alp);
