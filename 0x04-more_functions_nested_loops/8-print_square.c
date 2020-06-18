@@ -23,10 +23,8 @@ void print_square(int size)
 				_putchar('#');
 				j++;
 			}
-
-			_putchar('#');
-			i++;
 			_putchar('\n');
+			i++;
 		}
 	}
 }
