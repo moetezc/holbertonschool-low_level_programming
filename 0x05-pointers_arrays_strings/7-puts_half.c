@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * puts_half - put half of string.
  *
- * Return: Always 0.
+ * @str : pointer.
  */
 void puts_half(char *str)
 {
